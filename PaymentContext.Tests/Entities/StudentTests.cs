@@ -10,15 +10,22 @@ namespace PaymentContext.Tests
     public class StudentTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void AdicionarAssinatura()
         {
-            var subscription = new Subscription(null);
-            var name = new Name("André","Pellissari");
-            var document = new Document("123456",EDocumentType.CPF);
-            var email = new Email("teste@pellissari.com.br");
-            
-            var student = new Student(name,document,email);
-            student.AddSubscription(subscription);
+            //var subscription = new Subscription(null);
+            //var name = new Name("André","Pellissari");
+            //var document = new Document("123456",EDocumentType.CPF);
+            //var email = new Email("teste@pellissari.com.br");
+
+            //var student = new Student(name,document,email);
+            //student.AddSubscription(subscription);
+            var name = new Name("Teste", "Teste");
+            foreach (var not in name.Notifications)
+            {
+                //not.Message;
+            }
+
+
         }
     }
 }
