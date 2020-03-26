@@ -1,7 +1,7 @@
 using Flunt.Validations;
 using PaymentContext.Shared.ValueObjects;
 
-namespace PaymentContext.Domain.ValueOjects
+namespace PaymentContext.Domain.ValueObjects
 {
     public class Address : ValueObject {
         public Address(string street, string number, string neighborhood, string city, string state, string country, string zipCode)

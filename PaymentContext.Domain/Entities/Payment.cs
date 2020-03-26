@@ -1,6 +1,6 @@
 using System;
 using Flunt.Validations;
-using PaymentContext.Domain.ValueOjects;
+using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities

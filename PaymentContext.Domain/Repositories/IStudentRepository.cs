@@ -1,11 +1,12 @@
 using PaymentContext.Domain.Entities;
+using PaymentContext.Domain.ValueObjects;
 
 namespace PaymentContext.Domain.Repositories
 {
-    public interface IStudentRepositories
+    public interface IStudentRepository
     {
-        bool DocumetExists();
-        bool EmailExists();
+        bool DocumentExists(string document);
+        bool EmailExists(string email);
         void CreateSubscription(Student student);
     }
 }   

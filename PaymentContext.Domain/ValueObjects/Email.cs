@@ -1,7 +1,7 @@
 using Flunt.Validations;
 using PaymentContext.Shared.ValueObjects;
 
-namespace PaymentContext.Domain.ValueOjects
+namespace PaymentContext.Domain.ValueObjects
 {
     public class Email : ValueObject
     {

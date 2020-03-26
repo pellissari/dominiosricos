@@ -2,7 +2,7 @@ using Flunt.Validations;
 using PaymentContext.Domain.Enums;
 using PaymentContext.Shared.ValueObjects;
 
-namespace PaymentContext.Domain.ValueOjects
+namespace PaymentContext.Domain.ValueObjects
 {
     public class Document : ValueObject
     {
